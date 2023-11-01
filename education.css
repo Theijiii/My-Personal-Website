@@ -1,0 +1,194 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+    
+ }
+ @font-face {
+    font-family:myfontt ;
+    src: url(cursive.ttf);
+ }
+ @font-face {
+    font-family:myFont ;
+    src: url(cursive1.ttf);
+ }
+ body
+ { 
+    background-image:url("bgqt.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+ }
+ .navbar
+ { 
+     position: fixed;
+     width: 100%;
+     height:100px;
+     background-color: #ffcccc;
+     border-top:5px solid beige;
+     border-bottom:5px solid beige;
+     display: flex;
+ }
+ .navbar-brand
+ {
+ 
+     font:bold 14px cursive;
+     font-size:20px;
+ }
+ #navbarsExample03
+ {
+     font:bold 14px cursive;
+     font-size:100%;
+ 
+ }
+ .container a:hover
+ {
+     background:beige;
+     color: #4d3800;
+     border:1px solid beige;
+     transition: .3s;
+}
+
+#education
+{
+    border: 2px solid #ffcccc;
+    color:#4d3800;
+    background-color: beige;
+    position: absolute;
+    font-size:180%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    top:16%;
+    left: 25%;
+    padding: 10px;
+}
+
+
+
+
+
+#educ1
+{
+    border: 2px solid #4d3800;    
+    color:#4d3800;
+    background-color: beige;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    margin: 13rem auto 0 auto;
+    font-size:100%;
+    width:10%;
+    top:45%;
+    padding: 15px;
+}
+#educ2
+{
+    border: 2px solid #4d3800;    ;
+    color:#4d3800;
+    background-color: beige;
+    position: absolute;
+    left: 43%;
+    margin: 13rem auto 0 auto;
+    font-size:110%;
+    width:35%;
+    top:45%;
+    padding: 15px;
+}
+#educ3
+{
+    border: 2px solid #4d3800;    ;
+    color:#4d3800;
+    background-color: beige;
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    margin: 13rem auto 0 auto;
+    font-size:100%;
+    width: 10%;
+    top:58%;
+    padding: 15px;
+}
+
+#educ4
+{
+    border: 2px solid #4d3800;    
+    color:#4d3800;
+    background-color: beige;
+    position: absolute;
+    left: 43%;
+    margin: 13rem auto 0 auto;
+    font-size:110%;
+    width:35%;
+    top:58%;
+    padding: 15px;
+}
+
+
+
+
+
+.grad
+{ 
+    position:fixed;
+    top: 27%;
+    width: 300px;
+    left: 42%;
+    text-align: center;
+    object-fit: cover;
+    border: 2px solid #520034;
+ }
+
+
+#educ2 a:link
+{
+    color: #5b008d;
+    background-color: transparent;
+    text-decoration: da;
+}
+#educ2 a:visited
+{
+    color: #ff76b6;
+    background-color: transparent;
+    text-decoration: NONE;
+}
+#educ2 a:hover
+{
+    color: #437fff;
+    background-color: transparent;
+    text-decoration: NONE;
+}
+#educ2 a:active
+{
+    color:antiquewhite;
+    background-color: transparent;
+    text-decoration: NONE;
+}
+
+
+
+#educ4 a:link
+{
+    color: #5b008d;
+    background-color: transparent;
+    text-decoration: da;
+}
+#educ4 a:visited
+{
+    color: #ff76b6;
+    background-color: transparent;
+    text-decoration: NONE;
+}
+#educ4 a:hover
+{
+    color: #437fff;
+    background-color: transparent;
+    text-decoration: NONE;
+}
+#educ4 a:active
+{
+    color:antiquewhite;
+    background-color: transparent;
+    text-decoration: NONE;
+}

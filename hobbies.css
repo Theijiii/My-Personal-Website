@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+ }
+ @font-face {
+    font-family:myfontt ;
+    src: url(cursive.ttf);
+ }
+ @font-face {
+    font-family:myFont ;
+    src: url(cursive1.ttf);
+ }
+ body
+ { 
+    background-image:url("bgqt.jpeg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+ }
+ .navbar
+ { 
+     position: fixed;
+     width: 100%;
+     height:100px;
+     background-color: #ffcccc;
+     border-top:5px solid beige;
+     border-bottom:5px solid beige;
+     display: flex;
+ }
+ .navbar-brand
+ {
+ 
+     font:bold 14px cursive;
+     font-size:20px;
+ }
+ #navbarsExample03
+ {
+     font:bold 14px cursive;
+     font-size:100%;
+ 
+ }
+ .container a:hover
+ {
+     background:beige;
+     color: #4d3800;
+     border:1px solid beige;
+     transition: .3s;
+    }
+#hobbies
+     {
+     border: 2px solid #ffcccc;
+     color:#4d3800;
+     background-color: beige;
+     position: absolute;
+     font-size:180%;
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+     top:16%;
+     left: 25%;
+     padding: 10px;
+    }
+.section h1
+    {
+    
+     border: 4px solid beige;
+     background-color: #E18AAA;
+     color:#42001c;
+     position: absolute;
+     font-size:150%;
+     width: 60%;
+     text-align: center;
+     margin: 0 auto;
+     left: 20%;
+     padding: 25px;
+     margin: 10rem auto 0 auto;
+    }
+.section1 h1
+    {
+    
+     border: 4px solid beige;
+     background-color: #E4A0B7;
+     color:#42001c;
+     position: absolute;
+     font-size:150%;
+     width: 60%;
+     text-align: center;
+     margin: 0 auto;
+     left: 20%;
+     padding: 25px;
+     margin: 17rem auto 0 auto;
+    }
+.section2 h1
+    {
+    
+     border: 4px solid beige;
+     background-color: #ECBDC4;
+     color:#42001c;
+     position: absolute;
+     font-size:150%;
+     width: 60%;
+     text-align: center;
+     margin: 0 auto;
+     left: 20%;
+     padding: 25px;
+     margin: 24rem auto 0 auto;
+    }
+.section3 h1
+    {
+    
+     border: 4px solid beige;
+     background-color: #ffcccc;
+     color:#42001c;
+     position: absolute;
+     font-size:150%;
+     width: 60%;
+     text-align: center;
+     margin: 0 auto;
+     left: 20%;
+     padding: 25px;
+     margin: 31rem auto 0 auto;
+    }
+       
+    

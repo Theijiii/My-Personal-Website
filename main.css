@@ -1,0 +1,67 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive
+ }
+ 
+ body
+{ 
+   background-image:url("bgqt.jpeg");
+   background-size: cover;
+   background-position: center;
+   box-sizing: border-box;
+}
+.navbar
+{ 
+    position: fixed;
+    width: 100%;
+    height:100px;
+    background-color: #ffcccc;
+    border-top:5px solid beige;
+    border-bottom:5px solid beige;
+    display: flex;
+}
+.navbar-brand
+{
+
+    font:bold 14px cursive;
+    font-size:20px;
+}
+#navbarsExample03
+{
+    font:bold 14px cursive;
+    font-size:100%;
+
+}
+.container a:hover
+{
+    background:beige;
+    color: #4d3800;
+    border:1px solid beige;
+    transition: .3s;
+ }
+
+ h6
+{
+    position: fixed;
+   font-size: 18px;
+   background-color: beige;
+   border: 4px solid #fca5aa;
+   color: #4d3800;
+   text-align: center;
+   position: fixed;
+   padding:3%;
+   top: 67%;
+   left:32%;
+}
+ .img-me
+ {
+     position:fixed;
+     top: 24%;
+     width: 300px;
+     left: 42%;
+     text-align: center;
+     object-fit: cover;
+     border-radius: 50%;
+  }
